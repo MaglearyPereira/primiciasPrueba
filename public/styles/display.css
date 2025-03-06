@@ -1,0 +1,541 @@
+
+
+@media only screen and (min-width: 320px) and (max-width: 400px) {
+    
+
+    .svg2 {
+        height: 400px;
+        width: 350px;
+        margin-top: -100px;
+        position: absolute;
+        right: 0%;
+    }
+
+
+    .content-text {
+
+        width: 400px;
+        height: 300px;
+        font-size: 12px;
+        color: var(--blanco);
+        padding-left: 40%;
+        z-index: 3;
+      
+    }
+    .card-container {
+        display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        gap: 20px;
+        width: 100%;
+        position: relative;
+        top: 750px;
+    }
+    .card-container2 {
+        display: flex
+    ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        gap: 20px;
+        width: 100%;
+        position: relative;
+        top: 550px;
+    }
+.pt{
+    padding: 10px;
+    font-family: "Merienda", serif;
+    font-size: 14px;
+    text-align: justify;
+    background: #00000047;
+    border-radius: 10px;
+}
+    .text-decoration {
+        text-align: center;
+        font-size: 40px;
+        color: var(--blanco);
+        background: #00000047;
+        z-index: 3;
+    }
+    .svg1 {
+        width: 150px;
+        height: 75px;
+    }
+    h3 {
+        font-size: 30px;
+        color: var(--blanco);
+        z-index: 3;
+        text-align: center;
+    }
+
+    .content-text-center {
+        height: 450px;
+        gap: 70px;
+        padding-left: 0px;
+        z-index: 1;
+        padding-right: 60px;
+    }
+
+    .button {
+        font-size: 13px;
+        top: 430px;
+        left: 35%;
+        z-index: 3;
+    }
+    .text-decoration2{
+        font-size: 40px;
+        display: flex;
+    }
+    .text-decoration3{
+        font-size: 38px;
+    }
+    .content-manual-logo{
+        width: 100px;
+    }
+    .svg3 {
+        height: 150px;
+        width: 200px;
+        position: relative;
+        right: 50px;
+    }
+    .text-decoration3{
+        font-size: 30px;
+    }
+    .text-c {
+        height: 400px;
+        width: 200px;
+        left: 10px;
+    }
+    .svg4 {
+        height: 150px;
+        width: 100px;
+        position: relative;
+        right: 40px;
+    }
+  .button2{
+      font-size: 13px;
+      top: 180px;
+      left: 5px;
+      z-index: 3;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 570px) {
+    .nav-content {
+        width: 100%;
+        height: 605px;
+    }
+
+    .nav-content {
+        width: 100%;
+        height: 605px;
+    }
+
+    .svg2 {
+        height: 400px;
+        width: 400px;
+        margin-top: -100px;
+        position: absolute;
+        right: 0%;
+    }
+
+p{
+    background: #00000047;
+    border-radius: 10px;
+}
+    .content-text {
+
+        width: 500px;
+        text-align: center;
+        text-align: center;
+        font-size: 14px;
+        color: var(--blanco);
+        padding-left: 30%;
+        z-index: 3;
+    }
+
+    .text-decoration {
+        text-align: center;
+        font-size: 50px;
+        color: var(--blanco);
+        background: #00000047;
+        z-index: 3;
+    }
+
+    h3 {
+        font-size: 40px;
+        text-align: center;
+        color: var(--blanco);
+        z-index: 3;
+    }
+
+    .content-text-center {
+        height: 450px;
+        gap: 70px;
+        padding-left: 0px;
+        z-index: 1;
+    }
+
+    .button {
+        font-size: 13px;
+        top: 400px;
+        left: 35%;
+        z-index: 3;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 570px) and (max-width: 640px) {
+    .nav-content {
+        width: 100%;
+        height: 605px;
+    }
+
+    .svg2 {
+        height: 300px;
+        width: 300px;
+        margin-top: -100px;
+        position: absolute;
+        right: 0%;
+        z-index: 2;
+    }
+
+
+    .content-text {
+
+        width: 400px;
+        height: 300px;
+        font-size: 12px;
+        padding-left: 10px;
+        z-index: 3;
+    }
+
+    .text-decoration {
+        text-align: center;
+        font-size: 35px;
+        z-index: 3;
+    }
+
+    h3 {
+        font-size: 20px;
+        z-index: 3;
+    }
+
+    .content-text-center {
+        height: 450px;
+        gap: 70px;
+        padding-left: 0px;
+        z-index: 1;
+    }
+
+    .button {
+        font-size: 13px;
+        top: 400px;
+        left: 320px;
+    }
+
+    .svg4 {
+        height: 300px;
+        width: 210px;
+        position: relative;
+        right: 100px;
+    }
+    .button2{
+        left: 50px;
+    }
+    .text-c {
+        width: 250px;
+        height: 200px;
+        color: var(--grisOscuro);
+        left: 30px;
+        
+    }
+    .text-decoration2{
+        font-size: 40px;
+        display: flex;
+    }
+    .text-decoration3{
+        font-size: 38px;
+    }
+    .content-manual-logo{
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 610px) and (max-width: 720px) {
+    .svg3 {
+        height: 150px;
+        width: 210px;
+        position: relative;
+        right: 100px;
+    }
+    .text-decoration3{
+        font-size: 70px;
+    }
+    .svg4 {
+        height: 350px;
+        width: 400px;
+        position: relative;
+        right: 150px;
+    }
+    .svg2 {
+        height: 300px;
+        width: 300px;
+        margin-top: -100px;
+        position: absolute;
+        right: 0%;
+    }
+
+
+    .content-text {
+
+        width: 400px;
+        height: 300px;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+
+    .text-decoration {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 25px;
+    }
+
+    .content-text-center {
+        height: 450px;
+        gap: 70px;
+        padding-left: 0px;
+    }
+
+    .button {
+        font-size: 13px;
+        top: 400px;
+        left: 320px;
+    }
+    .svg4 {
+        height: 300px;
+        width: 210px;
+        position: relative;
+        right: 100px;
+    }
+    .button2{
+        left: 50px;
+    }
+    .text-c {
+        width: 250px;
+        height: 200px;
+        color: var(--grisOscuro);
+        left: 30px;
+        
+    }
+    .text-decoration2{
+        font-size: 40px;
+        display: flex;
+    }
+    .text-decoration3{
+        font-size: 38px;
+    }
+    .content-manual-logo{
+        width: 300px;
+    }
+}
+
+
+
+@media only screen and (min-width: 720px) and (max-width: 865px) {
+    .nav-content {
+        width: 100%;
+        height: 605px;
+    }
+
+    .svg2 {
+        height: 350px;
+        width: 350px;
+        margin-top: -120px;
+        position: absolute;
+        right: 0%;
+    }
+    .svg4 {
+        height: 300px;
+        width: 210px;
+        position: relative;
+        right: 100px;
+    }
+    .content-text-center {
+        gap: 0px;
+        padding-right: 0px
+    }
+
+    .content-text {
+
+        width: 400px;
+        height: 300px;
+        font-size: 14px;
+        padding-left: 20px;
+
+    }
+
+    .text-decoration {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    /*manuales*/
+    .contenedor{
+
+    }
+    .content-manual{
+
+    }
+     .content-manual-logo{
+        width: 300px;
+    }
+    .svg3 {
+        height: 300px;
+        width: 480px;
+        position: absolute;
+        right: 0px;
+    }
+    .button2{
+        left: 50px;
+    }
+    .text-c {
+        width: 370px;
+        height: 200px;
+        color: var(--grisOscuro);
+        left: 30px;
+        
+    }
+    .text-decoration2{
+        font-size: 60px;
+    }
+    .text-decoration3{
+        font-size: 50px;
+    }
+}
+
+
+@media only screen and (min-width: 865px) and (max-width: 1080px) {
+    .nav-content {
+        width: 100%;
+        height: 605px;
+    }
+    .svg4 {
+        height: 300px;
+        width: 270px;
+        position: relative;
+        right: 100px;
+    }
+    .svg2 {
+        height: 350px;
+        width: 350px;
+        margin-top: -120px;
+        position: absolute;
+        right: 0%;
+    }
+
+    .content-text-center {
+        gap: 0px;
+        padding-right: 0px
+    }
+
+    .content-text {
+
+        width: 400px;
+        height: 300px;
+        font-size: 14px;
+        padding-left: 20px;
+
+    }
+
+    .text-decoration {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    /*manuales*/
+    .contenedor{
+
+    }
+    .content-manual{
+
+    }
+     .content-manual-logo{
+        width: 400px;
+    }
+    .svg3 {
+        height: 380px;
+        width: 580px;
+        position: absolute;
+        right: 0px;
+    }
+    .button2{
+       left: 50px; 
+    }
+    .text-c {
+        width: 400px;
+        height: 200px;
+        color: var(--grisOscuro);
+        
+    }
+    .text-decoration2{
+        font-size: 60px;
+    }
+    .text-decoration3{
+        font-size: 60px;
+    }
+}
+@media only screen  and (min-width: 1080px) {
+    .svg2 {
+        height: 400px;
+        width: 400px;
+        margin-top: -120px;
+        position: absolute;
+        right: 0%;
+    }
+    .text-decoration3{
+        font-size: 70px;
+    }
+    .svg4 {
+        height: 350px;
+        width: 400px;
+        position: relative;
+        right: 150px;
+    }
+    .text-c {
+        width: 400px;
+        height: 120px;
+        position: absolute;
+        left: 50px;
+        color: var(--gris);
+    }
+    .text-decoration2 {
+        text-align: center;
+        font-size: 70px;
+        color: var(--vinotinto);
+        font-family: "Merienda", serif;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    .button2{
+        left: 50px;
+        top: 200px;
+    }
+    
+}               

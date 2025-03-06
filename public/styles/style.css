@@ -1,0 +1,343 @@
+:root {
+  --vinotinto: #810808;
+  --gris: #7A7A7A;
+  --grisClaro: #D3D3D3;
+  --grisOscuro: #7A7A7A;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --marronClaro: #deb887;
+  --azul: #99cee7;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+}
+  body {
+
+  background-color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  
+}
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 605px;
+  padding: none;
+
+
+}
+
+.content-manual {
+  width: 100%;
+    background-color: var(--blanco);
+   background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover; 
+   display: flex; 
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  margin: 20;
+  gap: 20px;
+}
+.text-c{
+  width: 600px;
+  height:120px;
+  position: absolute;
+  left: 50px;
+}
+.content-manual-logo{
+  width: 400px;
+  background: var(--vinotinto);
+align-items: center;
+display: flex;
+justify-content: center;
+gap: 8px;
+flex-direction: column;
+}
+.contenedor{
+display: flex;
+height: 650px;
+flex-direction: row;
+justify-content: center;
+
+
+
+}
+.nav-herader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background: #217697;
+
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background: var(--vinotinto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.text{
+  width: 100%;
+  height: 100px;
+  background-image: url("..public/img/dine.png");
+  background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover;  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+
+  align-items: center;
+  justify-content: center;
+
+}
+.text-decoration2{
+  text-align: center;
+  font-size: 90px;
+  color: var(--vinotinto);
+  font-family: "Merienda", serif;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.text-decoration3{
+  text-align: center;
+  font-size: 90px;
+  color: var(--vinotinto);
+  font-family: "Merienda", serif;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--vinotinto);
+  height: 100vh;
+  width: 100%;
+  gap: 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: var(--vinotinto);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.svg1 {
+  width: 200px;
+  height: 100px;
+}
+
+.logo {
+  text-align: center;
+  color: var(--blanco);
+  font-family: Arial, Helvetica;
+  font-size: 12px;
+}
+
+.text-center {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica;
+  color: var(--blanco);
+}
+
+.content-img {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+ h3 {
+  text-align: center;
+  font-size: 35px;
+  color: var(--negro);
+  font-family: "Merienda", serif;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: start;
+}
+.content-text-center {	
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  background-image: url("../img/cielo.jpg");
+  background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover;
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+
+  height: 800px;
+  padding-right: 50px;
+}
+.content-img2 {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: right;
+  align-items:center;
+  width: 400px;
+  height: 200px;
+}
+p{
+  font-family: "Merienda", serif;
+  text-align: justify;
+}
+
+
+
+
+
+.text-decoration {
+  text-align: center;
+  font-size: 60px;
+  color: var(--vinotinto);
+  font-family: "Merienda", serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:baseline;
+  width: 500px;
+  height: 300px;
+}
+.svg2{
+  height: 400px;
+  width: 400px;
+  margin-top: -150px;
+  position: absolute;
+right: 0%;
+}
+.svg3 {
+  height: 400px;
+  width: 600px;
+  position: relative;
+  right: 200px;
+}
+.svg4 {
+  height: 400px;
+  width: 600px;
+  position: relative;
+  right: 200px;
+}
+.button {
+  background-color: var(--vinotinto);
+  border: none;
+  color: var(--blanco);
+padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:0;
+  position: absolute;
+  top: 450px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica;
+}
+
+.button2 {
+  background-color: var(--vinotinto);
+  border: none;
+  color: var(--blanco);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:0;
+  position: relative;
+    top: 180px;
+  left: 200px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica;
+}
+.button3 {
+  background-color: var(--vinotinto);
+  border: none;
+  color: var(--blanco);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin:0;
+  position: relative;
+  top: 20px;
+  
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica;
+}
+.button:hover {
+  background-color: var(--grisOscuro);
+  transition: 0.5s;
+}
+.button2:hover {
+  background-color: var(--grisOscuro);
+  transition: 0.5s;
+}
+.text-header {
+  text-align: center;
+  color: var(--grisOscuro);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: 10%;
+  font-weight: 500;
+}
+
+/**/
+.text-header:hover {
+  color: var(--vinotinto);
+  transition: 0.5s;
+}
+.nav-coment{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+
+
+
