@@ -84,8 +84,16 @@ justify-content: center;
   display: flex;
   flex-direction: row;
   width: 100%;
-  background: var(--marronClaro);
+  background: var(--grisClaro);
 
+}
+.clos{
+
+  width: 50px;
+  height: 20px;
+  border: 1px solid var(--marronClaro);
+  border-radius: 8px;
+  
 }
 .footer {
   width: 100%;
@@ -149,6 +157,10 @@ justify-content: center;
 .svg1 {
   width: 200px;
   height: 100px;
+  display: flex;
+  position: absolute;
+  z-index: 2;
+  left: 10px;
 }
 
 .logo {
@@ -321,13 +333,20 @@ padding: 10px 20px;
   transition: 0.5s;
 }
 .text-header {
+  /* background-color: var(--vinotinto); */
+  border: 3px solid var(--vinotinto);
+  color: var(--vinotinto);
+  padding: 10px 20px;
   text-align: center;
-  color: var(--grisOscuro);
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
   margin-right: 10%;
-  font-weight: 500;
+  position: absolute;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica;
 }
 
 /**/

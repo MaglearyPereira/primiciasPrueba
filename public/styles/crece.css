@@ -8,6 +8,7 @@
     border-radius: 8px;
     background:var(--marronClaro) ;
     box-shadow: 5px 5px 10px #0000009c;
+    margin-bottom: 20px;
      
 }
 .card img{
